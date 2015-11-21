@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		048694DC1C004BE8001677E2 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048694DB1C004BE7001677E2 /* TestView.swift */; };
 		04B8BA8E1BFDADD20096BB58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8BA8D1BFDADD20096BB58 /* AppDelegate.swift */; };
 		04B8BA901BFDADD20096BB58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8BA8F1BFDADD20096BB58 /* ViewController.swift */; };
 		04B8BA931BFDADD20096BB58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B8BA911BFDADD20096BB58 /* Main.storyboard */; };
@@ -15,6 +16,12 @@
 		04B8BA9B1BFDADD30096BB58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B8BA991BFDADD30096BB58 /* LaunchScreen.storyboard */; };
 		04B8BAA61BFDADD30096BB58 /* PhotoTakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8BAA51BFDADD30096BB58 /* PhotoTakerTests.swift */; };
 		04B8BAB11BFDADD30096BB58 /* PhotoTakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8BAB01BFDADD30096BB58 /* PhotoTakerUITests.swift */; };
+		04DEE7E61BFDCDAF00E3D208 /* AssetGridCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DEE7E51BFDCDAF00E3D208 /* AssetGridCollectionViewController.swift */; };
+		04DEE7F11BFDE47B00E3D208 /* CIImage+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEE7EC1BFDE47B00E3D208 /* CIImage+Convenience.m */; };
+		04DEE7F21BFDE47B00E3D208 /* NSIndexSet+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEE7EE1BFDE47B00E3D208 /* NSIndexSet+Convenience.m */; };
+		04DEE7F31BFDE47B00E3D208 /* UICollectionView+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEE7F01BFDE47B00E3D208 /* UICollectionView+Convenience.m */; };
+		04DEE7F61BFDE7C000E3D208 /* GridViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DEE7F51BFDE7C000E3D208 /* GridViewCell.swift */; };
+		4CAD079B9DABCAD207C31F61 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 900546460204CD8991C40AAF /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		048694DB1C004BE7001677E2 /* TestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		04B8BA8A1BFDADD20096BB58 /* PhotoTaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoTaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B8BA8D1BFDADD20096BB58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04B8BA8F1BFDADD20096BB58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +57,18 @@
 		04B8BAAC1BFDADD30096BB58 /* PhotoTakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoTakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B8BAB01BFDADD30096BB58 /* PhotoTakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTakerUITests.swift; sourceTree = "<group>"; };
 		04B8BAB21BFDADD40096BB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DEE7E51BFDCDAF00E3D208 /* AssetGridCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetGridCollectionViewController.swift; sourceTree = "<group>"; };
+		04DEE7EA1BFDE47A00E3D208 /* PhotoTaker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoTaker-Bridging-Header.h"; sourceTree = "<group>"; };
+		04DEE7EB1BFDE47B00E3D208 /* CIImage+Convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CIImage+Convenience.h"; path = "../../../Downloads/ExampleappusingPhotosframework/SamplePhotosApp/CIImage+Convenience.h"; sourceTree = "<group>"; };
+		04DEE7EC1BFDE47B00E3D208 /* CIImage+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CIImage+Convenience.m"; path = "../../../Downloads/ExampleappusingPhotosframework/SamplePhotosApp/CIImage+Convenience.m"; sourceTree = "<group>"; };
+		04DEE7ED1BFDE47B00E3D208 /* NSIndexSet+Convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSIndexSet+Convenience.h"; path = "../../../Downloads/ExampleappusingPhotosframework/SamplePhotosApp/NSIndexSet+Convenience.h"; sourceTree = "<group>"; };
+		04DEE7EE1BFDE47B00E3D208 /* NSIndexSet+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSIndexSet+Convenience.m"; path = "../../../Downloads/ExampleappusingPhotosframework/SamplePhotosApp/NSIndexSet+Convenience.m"; sourceTree = "<group>"; };
+		04DEE7EF1BFDE47B00E3D208 /* UICollectionView+Convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+Convenience.h"; path = "../../../Downloads/ExampleappusingPhotosframework/SamplePhotosApp/UICollectionView+Convenience.h"; sourceTree = "<group>"; };
+		04DEE7F01BFDE47B00E3D208 /* UICollectionView+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+Convenience.m"; path = "../../../Downloads/ExampleappusingPhotosframework/SamplePhotosApp/UICollectionView+Convenience.m"; sourceTree = "<group>"; };
+		04DEE7F51BFDE7C000E3D208 /* GridViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridViewCell.swift; sourceTree = "<group>"; };
+		10EDBA572B057A48DD75C398 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		900546460204CD8991C40AAF /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9F300D67A536F824DAD90EC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CAD079B9DABCAD207C31F61 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +100,14 @@
 		04B8BA811BFDADD20096BB58 = {
 			isa = PBXGroup;
 			children = (
+				04DEE7F41BFDE48D00E3D208 /* ConvenienceCategories */,
 				04B8BA8C1BFDADD20096BB58 /* PhotoTaker */,
 				04B8BAA41BFDADD30096BB58 /* PhotoTakerTests */,
 				04B8BAAF1BFDADD30096BB58 /* PhotoTakerUITests */,
 				04B8BA8B1BFDADD20096BB58 /* Products */,
+				04DEE7EA1BFDE47A00E3D208 /* PhotoTaker-Bridging-Header.h */,
+				1C6F71EE985212E17AF1CACE /* Pods */,
+				7FBA73C21B588383CEA9E51A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +126,14 @@
 			children = (
 				04B8BA8D1BFDADD20096BB58 /* AppDelegate.swift */,
 				04B8BA8F1BFDADD20096BB58 /* ViewController.swift */,
+				04DEE7E51BFDCDAF00E3D208 /* AssetGridCollectionViewController.swift */,
 				04B8BA911BFDADD20096BB58 /* Main.storyboard */,
 				04B8BA971BFDADD30096BB58 /* Assets.xcassets */,
 				04B8BA991BFDADD30096BB58 /* LaunchScreen.storyboard */,
 				04B8BA9C1BFDADD30096BB58 /* Info.plist */,
 				04B8BA941BFDADD30096BB58 /* PhotoTaker.xcdatamodeld */,
+				04DEE7F51BFDE7C000E3D208 /* GridViewCell.swift */,
+				048694DB1C004BE7001677E2 /* TestView.swift */,
 			);
 			path = PhotoTaker;
 			sourceTree = "<group>";
@@ -128,6 +156,36 @@
 			path = PhotoTakerUITests;
 			sourceTree = "<group>";
 		};
+		04DEE7F41BFDE48D00E3D208 /* ConvenienceCategories */ = {
+			isa = PBXGroup;
+			children = (
+				04DEE7EB1BFDE47B00E3D208 /* CIImage+Convenience.h */,
+				04DEE7EC1BFDE47B00E3D208 /* CIImage+Convenience.m */,
+				04DEE7ED1BFDE47B00E3D208 /* NSIndexSet+Convenience.h */,
+				04DEE7EE1BFDE47B00E3D208 /* NSIndexSet+Convenience.m */,
+				04DEE7EF1BFDE47B00E3D208 /* UICollectionView+Convenience.h */,
+				04DEE7F01BFDE47B00E3D208 /* UICollectionView+Convenience.m */,
+			);
+			name = ConvenienceCategories;
+			sourceTree = "<group>";
+		};
+		1C6F71EE985212E17AF1CACE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10EDBA572B057A48DD75C398 /* Pods.debug.xcconfig */,
+				C9F300D67A536F824DAD90EC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7FBA73C21B588383CEA9E51A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				900546460204CD8991C40AAF /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04B8BAB51BFDADD40096BB58 /* Build configuration list for PBXNativeTarget "PhotoTaker" */;
 			buildPhases = (
+				0A50E4F05F8FF360CBBCBD8E /* Check Pods Manifest.lock */,
 				04B8BA861BFDADD20096BB58 /* Sources */,
 				04B8BA871BFDADD20096BB58 /* Frameworks */,
 				04B8BA881BFDADD20096BB58 /* Resources */,
+				0BB25958CB03AF0AF172FABA /* Embed Pods Frameworks */,
+				906B5EB46937B35ED98AD0A9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +257,7 @@
 				TargetAttributes = {
 					04B8BA891BFDADD20096BB58 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 7WS3CSBR28;
 					};
 					04B8BAA01BFDADD30096BB58 = {
 						CreatedOnToolsVersion = 7.1;
@@ -254,14 +316,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A50E4F05F8FF360CBBCBD8E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0BB25958CB03AF0AF172FABA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		906B5EB46937B35ED98AD0A9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04B8BA861BFDADD20096BB58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04DEE7F11BFDE47B00E3D208 /* CIImage+Convenience.m in Sources */,
 				04B8BA901BFDADD20096BB58 /* ViewController.swift in Sources */,
+				04DEE7F31BFDE47B00E3D208 /* UICollectionView+Convenience.m in Sources */,
 				04B8BA8E1BFDADD20096BB58 /* AppDelegate.swift in Sources */,
 				04B8BA961BFDADD30096BB58 /* PhotoTaker.xcdatamodeld in Sources */,
+				04DEE7F21BFDE47B00E3D208 /* NSIndexSet+Convenience.m in Sources */,
+				048694DC1C004BE8001677E2 /* TestView.swift in Sources */,
+				04DEE7F61BFDE7C000E3D208 /* GridViewCell.swift in Sources */,
+				04DEE7E61BFDCDAF00E3D208 /* AssetGridCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,23 +517,36 @@
 		};
 		04B8BAB61BFDADD40096BB58 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10EDBA572B057A48DD75C398 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PhotoTaker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tonespy.PhotoTaker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PhotoTaker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		04B8BAB71BFDADD40096BB58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9F300D67A536F824DAD90EC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PhotoTaker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tonespy.PhotoTaker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PhotoTaker-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -488,6 +617,7 @@
 				04B8BAB71BFDADD40096BB58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B8BAB81BFDADD40096BB58 /* Build configuration list for PBXNativeTarget "PhotoTakerTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +626,7 @@
 				04B8BABA1BFDADD40096BB58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B8BABB1BFDADD40096BB58 /* Build configuration list for PBXNativeTarget "PhotoTakerUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +635,7 @@
 				04B8BABD1BFDADD40096BB58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
